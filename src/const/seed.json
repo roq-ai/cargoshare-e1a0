@@ -1,0 +1,2572 @@
+[
+  {
+    "driver": [
+      {
+        "id": "d150c21b-26be-4956-aa98-5d2c95e8c452",
+        "license_number": "1234567890",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 77525,
+        "created_at": "2023-09-01T20:34:24.841Z",
+        "updated_at": "2023-09-02T01:49:25.747Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d2e4fc0-5ff2-4727-9893-e643894fb630",
+        "license_number": "0987654321",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 30520,
+        "created_at": "2023-09-01T14:28:15.086Z",
+        "updated_at": "2023-09-01T14:10:22.981Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69d25292-367d-49c7-a60d-9e5d2baf7aea",
+        "license_number": "5678901234",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 55179,
+        "created_at": "2023-09-02T00:51:12.686Z",
+        "updated_at": "2023-09-01T18:17:31.390Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf28039d-757c-4460-972d-a04ff86b2da9",
+        "license_number": "4321098765",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 17128,
+        "created_at": "2023-09-01T21:38:40.606Z",
+        "updated_at": "2023-09-02T01:02:15.919Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cff1b8b4-d69f-4be5-affb-98bbef79ae9b",
+        "license_number": "9876543210",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 65192,
+        "created_at": "2023-09-02T03:05:17.123Z",
+        "updated_at": "2023-09-02T11:24:51.303Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "2eb0e03d-b308-4c88-8bc8-90c24dd9062d",
+        "cargo_name": "Electronics",
+        "cargo_weight": 99700,
+        "cargo_volume": 86290,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-02T07:24:46.885Z",
+        "updated_at": "2023-09-02T12:24:00.160Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "74620cb7-d3fb-4eae-9d25-d68cc532afbb",
+        "cargo_name": "Clothing",
+        "cargo_weight": 96668,
+        "cargo_volume": 73501,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-02T11:10:48.854Z",
+        "updated_at": "2023-09-02T12:07:51.459Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9945df5d-a875-4ff0-9cca-65c751e64a09",
+        "cargo_name": "Furniture",
+        "cargo_weight": 45227,
+        "cargo_volume": 87800,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-02T07:26:51.318Z",
+        "updated_at": "2023-09-01T13:53:12.979Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "11aa3b45-a7e4-462c-a675-cee68bf58e26",
+        "cargo_name": "Food Products",
+        "cargo_weight": 64755,
+        "cargo_volume": 43890,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-02T08:16:23.285Z",
+        "updated_at": "2023-09-01T23:35:27.220Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "58c8b734-dc87-49b0-ba4b-d6b8d49a8e90",
+        "cargo_name": "Medical Supplies",
+        "cargo_weight": 2702,
+        "cargo_volume": 72014,
+        "cargo_type": "General",
+        "created_at": "2023-09-01T15:51:52.839Z",
+        "updated_at": "2023-09-01T19:59:06.163Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "00cde70e-9a82-476d-94f1-c52e84b4a011",
+        "admin_name": "Mark Johnson",
+        "admin_contact": "mark.johnson@example.com",
+        "created_at": "2023-09-02T05:29:33.817Z",
+        "updated_at": "2023-09-01T23:55:35.227Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c18b094-17fb-4996-86d7-61c42519c334",
+        "admin_name": "Emily Davis",
+        "admin_contact": "emily.davis@example.com",
+        "created_at": "2023-09-02T09:46:02.754Z",
+        "updated_at": "2023-09-01T14:59:06.614Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bddaca96-709c-4bce-b0a8-31e8f72f2ee2",
+        "admin_name": "Robert Wilson",
+        "admin_contact": "robert.wilson@example.com",
+        "created_at": "2023-09-01T17:34:18.169Z",
+        "updated_at": "2023-09-01T21:17:37.337Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a15a2392-d936-44be-b0dd-0dd00d5bc3e9",
+        "admin_name": "Jennifer Thompson",
+        "admin_contact": "jennifer.thompson@example.com",
+        "created_at": "2023-09-02T11:47:11.040Z",
+        "updated_at": "2023-09-02T02:01:02.834Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c077d38-ec64-42f8-9723-c0d39586fa7c",
+        "admin_name": "Christopher Martinez",
+        "admin_contact": "christopher.martinez@example.com",
+        "created_at": "2023-09-02T09:39:08.211Z",
+        "updated_at": "2023-09-01T17:01:04.623Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0921ad79-f5f5-456b-b786-6f509b967c7c",
+        "booking_date": "2023-09-02T04:37:53.138Z",
+        "expected_delivery_date": "2023-09-02T05:09:31.089Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T03:19:53.368Z",
+        "updated_at": "2023-09-02T11:58:33.300Z",
+        "cargo_id": "58c8b734-dc87-49b0-ba4b-d6b8d49a8e90",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "ba82b906-c071-403b-a187-0a8ff1e55f07",
+        "booking_date": "2023-09-01T15:05:28.724Z",
+        "expected_delivery_date": "2023-09-01T13:48:17.885Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-01T21:43:17.657Z",
+        "updated_at": "2023-09-02T08:05:38.708Z",
+        "cargo_id": "74620cb7-d3fb-4eae-9d25-d68cc532afbb",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "e4d01c5f-45c4-462f-9d53-be90ef41d078",
+        "booking_date": "2023-09-01T19:12:52.877Z",
+        "expected_delivery_date": "2023-09-01T13:03:15.743Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-01T16:15:30.449Z",
+        "updated_at": "2023-09-02T06:01:23.189Z",
+        "cargo_id": "2eb0e03d-b308-4c88-8bc8-90c24dd9062d",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "d05178e2-a50b-4472-a2e9-17a70e9e51da",
+        "booking_date": "2023-09-02T03:38:59.765Z",
+        "expected_delivery_date": "2023-09-01T23:31:47.724Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T00:43:41.785Z",
+        "updated_at": "2023-09-02T05:59:08.300Z",
+        "cargo_id": "2eb0e03d-b308-4c88-8bc8-90c24dd9062d",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "6b1dd42c-3cfd-4b56-97ba-30ceecebd20e",
+        "booking_date": "2023-09-02T01:30:53.940Z",
+        "expected_delivery_date": "2023-09-02T12:12:05.208Z",
+        "status": "On Hold",
+        "created_at": "2023-09-01T13:22:58.031Z",
+        "updated_at": "2023-09-01T22:51:21.694Z",
+        "cargo_id": "58c8b734-dc87-49b0-ba4b-d6b8d49a8e90",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4789924f-f97a-451d-a95c-1f17087467bf",
+        "email": "Craig.Kohler18@hotmail.com",
+        "firstName": "Elizabeth",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/340.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8f66e18b-42b8-44c7-a3ac-a21c1420a2c6",
+        "email": "Lucie_Johnston2@yahoo.com",
+        "firstName": "Mikel",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/226.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0933ca71-0793-46b6-b876-b48ea646a92d",
+        "email": "Ashlynn.Olson47@gmail.com",
+        "firstName": "Daniella",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84702335",
+        "tenantId": null
+      },
+      {
+        "reference": "1307346e-4045-44dd-bc47-863dade02e2d",
+        "email": "Jewel.Mohr23@gmail.com",
+        "firstName": "Rose",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1040.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c5ed9cf8-c532-4e18-b3d2-4f6707bae882",
+        "email": "Jace.Cole@gmail.com",
+        "firstName": "Alfonzo",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61915423",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "driver": [
+      {
+        "id": "ae4eef2b-3c90-4073-911b-d617a3cb988d",
+        "license_number": "DL-123456",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 55471,
+        "created_at": "2023-09-01T22:08:42.252Z",
+        "updated_at": "2023-09-01T20:53:41.451Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94470d8e-8110-4022-a65d-9740d9ba1a3d",
+        "license_number": "DL-654321",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 17760,
+        "created_at": "2023-09-01T20:50:44.247Z",
+        "updated_at": "2023-09-01T19:42:22.111Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bcb08a5-b8ed-4e7e-a90b-280ec2ec9091",
+        "license_number": "DL-987654",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 3791,
+        "created_at": "2023-09-01T15:12:08.101Z",
+        "updated_at": "2023-09-02T11:08:15.056Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6462ac9-b15d-4314-a26c-d7dc7cc42603",
+        "license_number": "DL-456789",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 1299,
+        "created_at": "2023-09-02T12:46:50.935Z",
+        "updated_at": "2023-09-01T22:09:37.171Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7557d59-5529-4603-8ebc-639f5a7215a6",
+        "license_number": "DL-987123",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 73733,
+        "created_at": "2023-09-02T12:14:08.914Z",
+        "updated_at": "2023-09-01T13:43:45.473Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "3c329122-dee2-4050-9869-59b5eebe7312",
+        "cargo_name": "Electronics",
+        "cargo_weight": 77431,
+        "cargo_volume": 36813,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-01T14:25:08.792Z",
+        "updated_at": "2023-09-01T13:55:28.941Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0e866692-7add-4fa9-add3-63c2d73bbd5a",
+        "cargo_name": "Clothing",
+        "cargo_weight": 58443,
+        "cargo_volume": 39394,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-01T13:04:30.430Z",
+        "updated_at": "2023-09-02T04:36:51.349Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a3026db5-fbbf-4be9-b98f-f8fa2b9af215",
+        "cargo_name": "Food products",
+        "cargo_weight": 7915,
+        "cargo_volume": 75551,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-02T05:28:29.679Z",
+        "updated_at": "2023-09-01T22:38:38.588Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ecbe121d-2e7f-431a-99ac-40e4e038be18",
+        "cargo_name": "Furniture",
+        "cargo_weight": 18260,
+        "cargo_volume": 49567,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-01T20:31:30.790Z",
+        "updated_at": "2023-09-02T07:09:56.424Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "681a6607-1214-4699-b2cc-4c34f6c91b25",
+        "cargo_name": "Books",
+        "cargo_weight": 61712,
+        "cargo_volume": 26722,
+        "cargo_type": "General",
+        "created_at": "2023-09-01T22:51:42.448Z",
+        "updated_at": "2023-09-02T05:34:16.804Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "0513b25d-b2aa-4e06-89b6-ab07a790f1d8",
+        "admin_name": "Admin 1",
+        "admin_contact": "admin1@example.com",
+        "created_at": "2023-09-02T02:53:34.808Z",
+        "updated_at": "2023-09-02T09:20:14.810Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fa49e32-6da6-4824-ac7e-2eb579a711fd",
+        "admin_name": "Admin 2",
+        "admin_contact": "admin2@example.com",
+        "created_at": "2023-09-02T06:23:49.871Z",
+        "updated_at": "2023-09-01T14:29:00.974Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9182e6e3-a634-4692-aace-8d5ba923c8fd",
+        "admin_name": "Admin 3",
+        "admin_contact": "admin3@example.com",
+        "created_at": "2023-09-01T22:03:47.814Z",
+        "updated_at": "2023-09-02T01:12:30.963Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af8cb760-4133-4e24-9c5d-ae1409b6d59e",
+        "admin_name": "Admin 4",
+        "admin_contact": "admin4@example.com",
+        "created_at": "2023-09-02T03:43:37.917Z",
+        "updated_at": "2023-09-02T07:45:42.618Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb715cf0-c235-4f4c-b8bb-48dab755f713",
+        "admin_name": "Admin 5",
+        "admin_contact": "admin5@example.com",
+        "created_at": "2023-09-01T14:37:55.637Z",
+        "updated_at": "2023-09-01T13:24:22.369Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "90e3b9ac-9ca2-44be-a33a-3492b8bb7a77",
+        "booking_date": "2023-09-02T01:34:39.844Z",
+        "expected_delivery_date": "2023-09-01T22:37:00.074Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T11:07:14.842Z",
+        "updated_at": "2023-09-01T23:21:47.841Z",
+        "cargo_id": "a3026db5-fbbf-4be9-b98f-f8fa2b9af215",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "53c91b30-8ea1-4834-a4a7-ea6c9b41a280",
+        "booking_date": "2023-09-02T09:36:14.164Z",
+        "expected_delivery_date": "2023-09-02T03:25:04.234Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T04:43:39.357Z",
+        "updated_at": "2023-09-02T11:03:43.663Z",
+        "cargo_id": "a3026db5-fbbf-4be9-b98f-f8fa2b9af215",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "abe23080-e95b-4709-bd40-664fc7d82b7d",
+        "booking_date": "2023-09-02T06:21:51.371Z",
+        "expected_delivery_date": "2023-09-02T08:18:23.416Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T03:36:24.899Z",
+        "updated_at": "2023-09-01T17:46:11.770Z",
+        "cargo_id": "a3026db5-fbbf-4be9-b98f-f8fa2b9af215",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "17c7cdae-669c-48df-8283-245e5079420a",
+        "booking_date": "2023-09-01T13:39:07.940Z",
+        "expected_delivery_date": "2023-09-02T01:07:42.334Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T03:17:29.323Z",
+        "updated_at": "2023-09-01T16:59:04.860Z",
+        "cargo_id": "a3026db5-fbbf-4be9-b98f-f8fa2b9af215",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "148b1fa9-4f2d-4d71-8d22-d9e5d7984de5",
+        "booking_date": "2023-09-01T14:58:01.789Z",
+        "expected_delivery_date": "2023-09-01T19:48:50.751Z",
+        "status": "On Hold",
+        "created_at": "2023-09-02T10:42:22.921Z",
+        "updated_at": "2023-09-02T01:46:56.645Z",
+        "cargo_id": "a3026db5-fbbf-4be9-b98f-f8fa2b9af215",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "88d455c8-0790-4f88-96f4-a44cfbb1932c",
+        "email": "Audreanne_Lang@yahoo.com",
+        "firstName": "Nikolas",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14172099",
+        "tenantId": null
+      },
+      {
+        "reference": "306baaed-c17a-4942-938b-148ee619bbe4",
+        "email": "Weldon6@hotmail.com",
+        "firstName": "Juliet",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1171.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c0b82f8d-b849-40c8-9fee-20af8f543773",
+        "email": "Adah.OHara@hotmail.com",
+        "firstName": "Marques",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/172.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7daf40b1-183f-489b-ad7d-309c03cd5b94",
+        "email": "Koby57@hotmail.com",
+        "firstName": "Gia",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/745.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "68fddcb3-6f6e-4f7e-b432-a6582ef2e745",
+        "email": "Alivia.Greenholt15@gmail.com",
+        "firstName": "Dagmar",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99317650",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "driver": [
+      {
+        "id": "286539c6-7075-4483-b302-716557eb7427",
+        "license_number": "DL123456",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 10261,
+        "created_at": "2023-09-01T15:43:32.390Z",
+        "updated_at": "2023-09-02T12:12:46.132Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00b45cfa-5483-46a9-88e6-91e38c439739",
+        "license_number": "DL654321",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 70581,
+        "created_at": "2023-09-01T18:46:29.097Z",
+        "updated_at": "2023-09-02T05:33:05.518Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b924681-2b9d-491c-9bd7-743daed352af",
+        "license_number": "DL987654",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 25243,
+        "created_at": "2023-09-02T09:59:56.649Z",
+        "updated_at": "2023-09-02T10:42:46.516Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "782b3b36-e49b-4e54-b454-b9596359b935",
+        "license_number": "DL246813",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 27690,
+        "created_at": "2023-09-01T15:00:51.683Z",
+        "updated_at": "2023-09-02T09:41:24.633Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89543029-bcaa-47b1-af0b-07bd382be8c4",
+        "license_number": "DL135792",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 99935,
+        "created_at": "2023-09-02T03:43:13.869Z",
+        "updated_at": "2023-09-01T23:12:10.368Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "1822c89a-af6e-43f4-8323-77ff4ca16ee6",
+        "cargo_name": "Electronics",
+        "cargo_weight": 77455,
+        "cargo_volume": 62507,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-01T15:47:03.257Z",
+        "updated_at": "2023-09-02T12:20:07.271Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3f94066b-04c7-4028-9e5b-6deae5db5eb3",
+        "cargo_name": "Clothing",
+        "cargo_weight": 71679,
+        "cargo_volume": 17712,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-01T14:48:46.487Z",
+        "updated_at": "2023-09-02T04:10:20.785Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ab4da344-5bbb-48dd-a8bf-fae1bed73d35",
+        "cargo_name": "Food",
+        "cargo_weight": 84428,
+        "cargo_volume": 96029,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-01T15:42:41.516Z",
+        "updated_at": "2023-09-01T21:09:49.080Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "88e98336-7b9f-4d24-a387-a18c40559909",
+        "cargo_name": "Furniture",
+        "cargo_weight": 73001,
+        "cargo_volume": 86187,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-01T19:31:22.781Z",
+        "updated_at": "2023-09-02T02:16:27.998Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "32775102-b289-4f96-8c8d-e7bd83dc6ae3",
+        "cargo_name": "Books",
+        "cargo_weight": 81721,
+        "cargo_volume": 47722,
+        "cargo_type": "Valuable",
+        "created_at": "2023-09-01T23:35:29.142Z",
+        "updated_at": "2023-09-02T10:51:38.549Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "94915a1a-52ae-496c-9d47-0425eb07f230",
+        "admin_name": "Sarah Johnson",
+        "admin_contact": "sarah@example.com",
+        "created_at": "2023-09-02T01:27:20.504Z",
+        "updated_at": "2023-09-02T06:50:22.207Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53b67cfe-bf05-41da-99fe-8589524c1b2a",
+        "admin_name": "Robert Smith",
+        "admin_contact": "robert@example.com",
+        "created_at": "2023-09-01T16:33:53.819Z",
+        "updated_at": "2023-09-02T11:02:59.000Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86681086-8008-4aa9-beec-73dafdf159e7",
+        "admin_name": "Emma Davis",
+        "admin_contact": "emma@example.com",
+        "created_at": "2023-09-01T13:44:15.240Z",
+        "updated_at": "2023-09-02T08:30:43.847Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3e08f47-aa29-4f59-9690-ab02725c72b3",
+        "admin_name": "David Wilson",
+        "admin_contact": "david@example.com",
+        "created_at": "2023-09-02T07:09:48.510Z",
+        "updated_at": "2023-09-02T01:07:25.347Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3af4cfc-cb27-4139-9ac2-1f8188db1cd5",
+        "admin_name": "Olivia Brown",
+        "admin_contact": "olivia@example.com",
+        "created_at": "2023-09-01T14:35:29.920Z",
+        "updated_at": "2023-09-01T18:14:22.734Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "234d794a-994d-4fe9-bf48-78939f7c4b25",
+        "booking_date": "2023-09-01T21:11:49.658Z",
+        "expected_delivery_date": "2023-09-02T10:06:50.592Z",
+        "status": "Pending",
+        "created_at": "2023-09-01T21:45:40.122Z",
+        "updated_at": "2023-09-01T17:25:00.970Z",
+        "cargo_id": "1822c89a-af6e-43f4-8323-77ff4ca16ee6",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "3f53fbf6-543f-4bd3-93e1-4d00b1a035ff",
+        "booking_date": "2023-09-02T02:44:43.448Z",
+        "expected_delivery_date": "2023-09-02T05:36:27.175Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T04:27:53.601Z",
+        "updated_at": "2023-09-02T12:19:19.577Z",
+        "cargo_id": "32775102-b289-4f96-8c8d-e7bd83dc6ae3",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "adddfb8e-33cd-42d2-9df2-d41dde69780a",
+        "booking_date": "2023-09-01T20:26:24.981Z",
+        "expected_delivery_date": "2023-09-02T05:52:07.096Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T10:46:26.915Z",
+        "updated_at": "2023-09-02T04:23:40.918Z",
+        "cargo_id": "ab4da344-5bbb-48dd-a8bf-fae1bed73d35",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "07163e10-8186-434b-a949-a1b54daaa1c9",
+        "booking_date": "2023-09-02T04:44:37.274Z",
+        "expected_delivery_date": "2023-09-01T23:23:38.361Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T12:36:28.012Z",
+        "updated_at": "2023-09-02T07:30:00.071Z",
+        "cargo_id": "3f94066b-04c7-4028-9e5b-6deae5db5eb3",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "41c45f15-fc37-4bb2-8cd3-dcf1c6ee97fb",
+        "booking_date": "2023-09-02T07:56:44.157Z",
+        "expected_delivery_date": "2023-09-01T20:34:39.233Z",
+        "status": "On Hold",
+        "created_at": "2023-09-02T02:26:23.469Z",
+        "updated_at": "2023-09-02T04:45:44.791Z",
+        "cargo_id": "ab4da344-5bbb-48dd-a8bf-fae1bed73d35",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "402dcc24-3c3a-4111-bd91-d26b34322c4d",
+        "email": "Lindsey18@yahoo.com",
+        "firstName": "Reagan",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86897972",
+        "tenantId": null
+      },
+      {
+        "reference": "6785a77e-b481-42a1-899b-5e6c898c693b",
+        "email": "Abbey68@hotmail.com",
+        "firstName": "Frederick",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/195.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d23d9a6e-187a-4868-abba-ebacaffcb19a",
+        "email": "Nayeli59@hotmail.com",
+        "firstName": "Herta",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60581651",
+        "tenantId": null
+      },
+      {
+        "reference": "e2dd910d-cb0e-431e-840a-b09b7e15cc67",
+        "email": "Emilio89@gmail.com",
+        "firstName": "Leonora",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23275560",
+        "tenantId": null
+      },
+      {
+        "reference": "4daa73d0-3d05-4ce7-a2e9-19aab1b1fb11",
+        "email": "Vincenza0@yahoo.com",
+        "firstName": "Esperanza",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/986.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "driver": [
+      {
+        "id": "28e8fef6-ffb7-4181-a036-ade8f71450e0",
+        "license_number": "DL12345",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 59792,
+        "created_at": "2023-09-01T20:29:12.179Z",
+        "updated_at": "2023-09-02T11:06:17.565Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96165b3a-ea59-459d-a650-8a2b6b00f780",
+        "license_number": "DL67890",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 18302,
+        "created_at": "2023-09-02T07:26:45.716Z",
+        "updated_at": "2023-09-01T14:23:35.084Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79c75db3-dbc4-4907-ae97-ce6e07430251",
+        "license_number": "DL24680",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 70782,
+        "created_at": "2023-09-02T12:48:06.885Z",
+        "updated_at": "2023-09-02T03:47:45.119Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d0118f7-51b3-49fd-add8-7d5b9ddc9032",
+        "license_number": "DL13579",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 90789,
+        "created_at": "2023-09-01T14:23:42.578Z",
+        "updated_at": "2023-09-02T05:51:10.783Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92d9ff87-8f70-47e1-829c-e63a7042ffc6",
+        "license_number": "DL86420",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 93605,
+        "created_at": "2023-09-01T21:49:38.109Z",
+        "updated_at": "2023-09-01T23:26:02.674Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "f89801c9-f063-4e6b-90d3-5b11ec145141",
+        "cargo_name": "Electronics",
+        "cargo_weight": 27152,
+        "cargo_volume": 61742,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-02T05:45:16.347Z",
+        "updated_at": "2023-09-01T23:20:29.813Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4a1be932-61f5-4aa5-8f5d-8ef3b0725ab1",
+        "cargo_name": "Clothing",
+        "cargo_weight": 7149,
+        "cargo_volume": 76059,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-02T06:58:54.569Z",
+        "updated_at": "2023-09-01T19:58:04.916Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aa4c5bd9-ffdb-4f0c-82f6-9ddfbad03357",
+        "cargo_name": "Furniture",
+        "cargo_weight": 85776,
+        "cargo_volume": 679,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-02T02:32:17.624Z",
+        "updated_at": "2023-09-02T11:44:21.875Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "da993e6f-640d-4509-8554-e6b371b4911a",
+        "cargo_name": "Food",
+        "cargo_weight": 32019,
+        "cargo_volume": 68566,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-01T23:20:03.927Z",
+        "updated_at": "2023-09-02T03:37:03.144Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d5eeb05b-77a3-4a9c-aee1-abfcfce286c5",
+        "cargo_name": "Books",
+        "cargo_weight": 49737,
+        "cargo_volume": 38679,
+        "cargo_type": "Valuable",
+        "created_at": "2023-09-02T05:58:47.473Z",
+        "updated_at": "2023-09-02T05:32:54.955Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "dce17967-b568-4256-a2c3-becf12506499",
+        "admin_name": "Mark Johnson",
+        "admin_contact": "mark.johnson@example.com",
+        "created_at": "2023-09-02T05:13:49.863Z",
+        "updated_at": "2023-09-02T09:38:56.230Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f30835cd-75a2-4702-9b53-a19c00974625",
+        "admin_name": "Emily Davis",
+        "admin_contact": "emily.davis@example.com",
+        "created_at": "2023-09-02T09:14:21.433Z",
+        "updated_at": "2023-09-02T09:44:37.037Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9ba4f69-fd17-4f06-a039-499b00ac8baa",
+        "admin_name": "Chris Thompson",
+        "admin_contact": "chris.thompson@example.com",
+        "created_at": "2023-09-01T13:31:00.417Z",
+        "updated_at": "2023-09-02T11:22:38.312Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "350b2b42-d662-4c8f-baf0-3add5a4e31e8",
+        "admin_name": "Jennifer Wilson",
+        "admin_contact": "jennifer.wilson@example.com",
+        "created_at": "2023-09-01T19:35:59.067Z",
+        "updated_at": "2023-09-02T09:14:59.184Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6889858-3264-4e71-8081-7729d99d90e4",
+        "admin_name": "Alexandra Brown",
+        "admin_contact": "alexandra.brown@example.com",
+        "created_at": "2023-09-02T11:12:21.625Z",
+        "updated_at": "2023-09-02T00:35:19.230Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "ce71be5d-2550-4672-a112-4e8f3019431f",
+        "booking_date": "2023-09-01T15:50:52.066Z",
+        "expected_delivery_date": "2023-09-02T10:50:18.496Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T12:07:04.327Z",
+        "updated_at": "2023-09-02T10:04:05.468Z",
+        "cargo_id": "4a1be932-61f5-4aa5-8f5d-8ef3b0725ab1",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "eba888b8-9311-4442-87b6-36b96abc8cb9",
+        "booking_date": "2023-09-02T07:30:02.570Z",
+        "expected_delivery_date": "2023-09-01T19:35:49.700Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T02:51:39.263Z",
+        "updated_at": "2023-09-02T01:25:07.599Z",
+        "cargo_id": "da993e6f-640d-4509-8554-e6b371b4911a",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "83af8a92-7c4a-480b-b00f-68d218db2e62",
+        "booking_date": "2023-09-02T00:15:38.974Z",
+        "expected_delivery_date": "2023-09-02T08:48:14.761Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T09:43:58.903Z",
+        "updated_at": "2023-09-02T04:21:30.410Z",
+        "cargo_id": "da993e6f-640d-4509-8554-e6b371b4911a",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "c87c0089-927e-4252-b46c-56f3499ad4d7",
+        "booking_date": "2023-09-01T14:26:08.752Z",
+        "expected_delivery_date": "2023-09-01T14:35:26.724Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T04:10:30.918Z",
+        "updated_at": "2023-09-01T19:23:18.606Z",
+        "cargo_id": "da993e6f-640d-4509-8554-e6b371b4911a",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "9eb11d89-8ec4-44ec-8646-fcf1be15e282",
+        "booking_date": "2023-09-02T04:01:02.823Z",
+        "expected_delivery_date": "2023-09-02T04:36:30.213Z",
+        "status": "On Hold",
+        "created_at": "2023-09-01T16:56:39.954Z",
+        "updated_at": "2023-09-01T16:26:05.667Z",
+        "cargo_id": "f89801c9-f063-4e6b-90d3-5b11ec145141",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0fc9f159-874e-4148-93cc-a254d57e3cf2",
+        "email": "Mozell.Swaniawski@hotmail.com",
+        "firstName": "Kelley",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26920092",
+        "tenantId": null
+      },
+      {
+        "reference": "7480a8fd-d865-40ad-9bbf-45f415b6c38b",
+        "email": "Annie.Cummerata@yahoo.com",
+        "firstName": "Craig",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/43.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37fca588-576f-46ad-874d-58d922a49822",
+        "email": "Ernesto41@yahoo.com",
+        "firstName": "Marcel",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/932.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c5822ae1-7e66-40d1-8d9c-ebbce76356c1",
+        "email": "Ottilie78@hotmail.com",
+        "firstName": "Dale",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96077099",
+        "tenantId": null
+      },
+      {
+        "reference": "5bb680de-2c34-4136-af17-11908aaaf627",
+        "email": "Cassandra.Hoppe94@gmail.com",
+        "firstName": "Kameron",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57524108",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "driver": [
+      {
+        "id": "8fd8a998-f899-4809-8087-77e20997d2ef",
+        "license_number": "D12345",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 35014,
+        "created_at": "2023-09-02T10:10:31.643Z",
+        "updated_at": "2023-09-02T09:35:50.682Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f351a2c-93a4-49b4-b63d-80f6670af73a",
+        "license_number": "D67890",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 16353,
+        "created_at": "2023-09-02T05:11:44.432Z",
+        "updated_at": "2023-09-01T17:00:15.190Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67ab1e38-5f4a-403e-ba37-e11e197aa089",
+        "license_number": "D24680",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 5493,
+        "created_at": "2023-09-02T01:21:03.961Z",
+        "updated_at": "2023-09-02T08:01:21.935Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ffd8021-28c0-44f2-b03a-2b6a719af169",
+        "license_number": "D13579",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 11564,
+        "created_at": "2023-09-01T18:11:54.966Z",
+        "updated_at": "2023-09-01T22:27:19.992Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d68f84fa-f2c8-46ec-8437-db528701539b",
+        "license_number": "D86420",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 57179,
+        "created_at": "2023-09-01T15:56:50.099Z",
+        "updated_at": "2023-09-01T22:59:24.293Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "1e92344a-28e2-4bab-99f2-15ade007c763",
+        "cargo_name": "Electronics",
+        "cargo_weight": 22933,
+        "cargo_volume": 51215,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-02T09:25:09.616Z",
+        "updated_at": "2023-09-02T00:51:56.769Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "12834924-ae47-47b9-8625-a24c57606361",
+        "cargo_name": "Clothing",
+        "cargo_weight": 74234,
+        "cargo_volume": 65404,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-02T02:03:10.629Z",
+        "updated_at": "2023-09-01T13:46:38.547Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1a7d16d5-9c86-4457-a382-0227c2ce357f",
+        "cargo_name": "Food",
+        "cargo_weight": 7548,
+        "cargo_volume": 36601,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-02T02:41:27.036Z",
+        "updated_at": "2023-09-01T15:05:49.229Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f0ebce44-7bb7-49ae-b004-d0ff6b316a38",
+        "cargo_name": "Furniture",
+        "cargo_weight": 80288,
+        "cargo_volume": 2084,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-01T22:28:08.181Z",
+        "updated_at": "2023-09-01T14:44:26.756Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "55cc50c1-79a5-4ede-ae0a-1eead7865dc5",
+        "cargo_name": "Books",
+        "cargo_weight": 48179,
+        "cargo_volume": 37477,
+        "cargo_type": "Valuable",
+        "created_at": "2023-09-01T22:39:53.375Z",
+        "updated_at": "2023-09-02T03:21:16.421Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "433a1355-abb3-4d0f-835d-36cb5dd0d49a",
+        "admin_name": "Mary Johnson",
+        "admin_contact": "mary.johnson@example.com",
+        "created_at": "2023-09-01T17:19:54.930Z",
+        "updated_at": "2023-09-01T13:48:54.789Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18c38752-5188-40c3-b51f-e95c689f580a",
+        "admin_name": "Robert Smith",
+        "admin_contact": "robert.smith@example.com",
+        "created_at": "2023-09-01T17:04:38.633Z",
+        "updated_at": "2023-09-02T00:33:06.369Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a8e1b57-11e0-4c33-a4dc-7b8eb97e476c",
+        "admin_name": "Jennifer Davis",
+        "admin_contact": "jennifer.davis@example.com",
+        "created_at": "2023-09-02T11:59:13.412Z",
+        "updated_at": "2023-09-01T14:53:33.051Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "801abce3-bf49-47fd-823d-298dcd57a7d9",
+        "admin_name": "William Wilson",
+        "admin_contact": "william.wilson@example.com",
+        "created_at": "2023-09-02T08:23:15.340Z",
+        "updated_at": "2023-09-01T14:25:14.827Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29484977-7dda-4397-b763-94c9040f44f3",
+        "admin_name": "Patricia Anderson",
+        "admin_contact": "patricia.anderson@example.com",
+        "created_at": "2023-09-01T22:33:12.695Z",
+        "updated_at": "2023-09-01T14:41:02.730Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "21bc5c6c-4174-4340-a131-471184aaa29d",
+        "booking_date": "2023-09-02T08:29:54.623Z",
+        "expected_delivery_date": "2023-09-02T05:42:22.168Z",
+        "status": "Pending",
+        "created_at": "2023-09-01T17:38:04.446Z",
+        "updated_at": "2023-09-01T23:23:29.273Z",
+        "cargo_id": "1a7d16d5-9c86-4457-a382-0227c2ce357f",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "57ac31d7-f4eb-4d34-82f9-621494dd5071",
+        "booking_date": "2023-09-02T07:47:23.460Z",
+        "expected_delivery_date": "2023-09-01T17:02:03.990Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T04:44:09.536Z",
+        "updated_at": "2023-09-02T11:48:53.159Z",
+        "cargo_id": "1a7d16d5-9c86-4457-a382-0227c2ce357f",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "e4e01a45-9dba-4e3c-958e-769c62253893",
+        "booking_date": "2023-09-01T16:55:19.300Z",
+        "expected_delivery_date": "2023-09-02T05:52:17.683Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T04:21:15.856Z",
+        "updated_at": "2023-09-02T12:46:30.328Z",
+        "cargo_id": "1e92344a-28e2-4bab-99f2-15ade007c763",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "34779a67-c0ab-43a3-80d2-a0922f8ef844",
+        "booking_date": "2023-09-02T07:24:11.818Z",
+        "expected_delivery_date": "2023-09-02T10:20:53.833Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T06:05:54.024Z",
+        "updated_at": "2023-09-01T22:44:14.308Z",
+        "cargo_id": "12834924-ae47-47b9-8625-a24c57606361",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "f681e4f7-abc8-47c1-98db-9e322f3e8e6c",
+        "booking_date": "2023-09-01T21:40:47.947Z",
+        "expected_delivery_date": "2023-09-02T01:16:37.215Z",
+        "status": "On Hold",
+        "created_at": "2023-09-02T02:06:38.383Z",
+        "updated_at": "2023-09-02T06:40:52.346Z",
+        "cargo_id": "1e92344a-28e2-4bab-99f2-15ade007c763",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0724f145-c033-44cd-9207-9f2112f3ca5f",
+        "email": "Brennon35@gmail.com",
+        "firstName": "Ulices",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/316.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69eb3234-096a-4e79-924a-611263b38001",
+        "email": "Boyd.Sauer@yahoo.com",
+        "firstName": "Kaley",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65050023",
+        "tenantId": null
+      },
+      {
+        "reference": "22415e3a-c868-49f6-8026-13550604d0aa",
+        "email": "Anya55@hotmail.com",
+        "firstName": "Harvey",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30938371",
+        "tenantId": null
+      },
+      {
+        "reference": "ed7671ef-e3c8-43c3-bf95-baca1ca37070",
+        "email": "Roel_Kunde7@hotmail.com",
+        "firstName": "Magdalena",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60856045",
+        "tenantId": null
+      },
+      {
+        "reference": "63ae7993-f411-4f0e-9eba-6d282f5dbbea",
+        "email": "Kip52@hotmail.com",
+        "firstName": "Phoebe",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/741.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "driver": [
+      {
+        "id": "e3fa9195-3377-4906-bd89-0a315413c1eb",
+        "license_number": "123456789",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 90673,
+        "created_at": "2023-09-02T05:25:47.352Z",
+        "updated_at": "2023-09-02T10:12:22.057Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70915d12-0adf-44f7-83d8-1672f55c7293",
+        "license_number": "987654321",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 99455,
+        "created_at": "2023-09-02T11:46:59.286Z",
+        "updated_at": "2023-09-01T15:13:24.006Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c08a27ac-23e7-45a0-8af1-7f2a04f37fc0",
+        "license_number": "456789123",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 21267,
+        "created_at": "2023-09-02T06:52:59.170Z",
+        "updated_at": "2023-09-02T00:29:22.335Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "241b27bd-eef5-449b-815b-d682608e336d",
+        "license_number": "321654987",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 88125,
+        "created_at": "2023-09-02T08:41:08.166Z",
+        "updated_at": "2023-09-02T08:50:16.741Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1cf134d-997a-4c12-9bc5-0a155dbf88be",
+        "license_number": "789123456",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 92339,
+        "created_at": "2023-09-02T12:33:35.554Z",
+        "updated_at": "2023-09-01T14:31:15.350Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "eeb53856-5c47-42d3-95dd-9f6132537751",
+        "cargo_name": "Electronics",
+        "cargo_weight": 50565,
+        "cargo_volume": 77102,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-02T06:52:28.127Z",
+        "updated_at": "2023-09-02T03:13:01.538Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d462bf61-ae68-4155-a9db-35fbd41edc69",
+        "cargo_name": "Clothing",
+        "cargo_weight": 73764,
+        "cargo_volume": 108,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-02T12:22:13.994Z",
+        "updated_at": "2023-09-02T00:48:22.806Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ea8a4a1f-af0b-48dc-9dea-c81b7b893b62",
+        "cargo_name": "Food",
+        "cargo_weight": 83995,
+        "cargo_volume": 86473,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-02T05:15:57.918Z",
+        "updated_at": "2023-09-01T13:43:39.661Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "38417cb9-66a5-43a7-b9e7-5f4f34bbcd95",
+        "cargo_name": "Furniture",
+        "cargo_weight": 46560,
+        "cargo_volume": 48115,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-01T20:48:19.381Z",
+        "updated_at": "2023-09-01T22:17:26.014Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "92c7bcff-c5b7-40c1-ab4c-b577edfd66c1",
+        "cargo_name": "Books",
+        "cargo_weight": 21642,
+        "cargo_volume": 57332,
+        "cargo_type": "Valuable",
+        "created_at": "2023-09-01T22:54:11.801Z",
+        "updated_at": "2023-09-01T20:47:20.034Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "94878d05-bb3d-4846-a547-13ff122db1b1",
+        "admin_name": "John Smith",
+        "admin_contact": "123-456-7890",
+        "created_at": "2023-09-02T01:17:33.330Z",
+        "updated_at": "2023-09-01T23:49:42.486Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a32673a-6b3e-4d49-9d74-850085f72f4e",
+        "admin_name": "Jane Doe",
+        "admin_contact": "987-654-3210",
+        "created_at": "2023-09-02T10:17:20.419Z",
+        "updated_at": "2023-09-02T08:32:28.170Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ccb3eeb9-4513-42ea-b3cd-b6bf6018169e",
+        "admin_name": "Michael Brown",
+        "admin_contact": "456-789-1230",
+        "created_at": "2023-09-01T13:27:30.042Z",
+        "updated_at": "2023-09-02T06:54:13.165Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f022901a-50be-4b68-a8cc-7fa5668748a9",
+        "admin_name": "Sarah Jones",
+        "admin_contact": "321-654-9870",
+        "created_at": "2023-09-02T00:05:10.553Z",
+        "updated_at": "2023-09-01T18:58:22.473Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8621489-5866-4a1a-8fad-9e3994715c8e",
+        "admin_name": "David Wilson",
+        "admin_contact": "789-123-4560",
+        "created_at": "2023-09-02T07:00:08.502Z",
+        "updated_at": "2023-09-02T08:30:07.395Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "86ce9efa-88e2-4dfa-814d-6c6f442dc73a",
+        "booking_date": "2023-09-02T11:57:46.970Z",
+        "expected_delivery_date": "2023-09-02T06:02:35.700Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T09:08:34.257Z",
+        "updated_at": "2023-09-02T06:18:15.288Z",
+        "cargo_id": "92c7bcff-c5b7-40c1-ab4c-b577edfd66c1",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "965028e3-46c3-4b2e-9c5d-884b5c269547",
+        "booking_date": "2023-09-02T05:13:00.148Z",
+        "expected_delivery_date": "2023-09-02T06:29:46.720Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T12:25:40.180Z",
+        "updated_at": "2023-09-02T11:53:06.783Z",
+        "cargo_id": "d462bf61-ae68-4155-a9db-35fbd41edc69",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "71964aee-c0a2-4056-9548-4e7f39cce049",
+        "booking_date": "2023-09-01T15:10:27.793Z",
+        "expected_delivery_date": "2023-09-01T14:33:12.431Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-01T17:54:48.546Z",
+        "updated_at": "2023-09-02T11:43:02.622Z",
+        "cargo_id": "92c7bcff-c5b7-40c1-ab4c-b577edfd66c1",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "fe3ef117-fac9-43c3-a359-54c506b3511f",
+        "booking_date": "2023-09-01T17:45:34.847Z",
+        "expected_delivery_date": "2023-09-02T08:45:07.992Z",
+        "status": "Completed",
+        "created_at": "2023-09-01T17:00:21.993Z",
+        "updated_at": "2023-09-02T01:09:49.647Z",
+        "cargo_id": "d462bf61-ae68-4155-a9db-35fbd41edc69",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "79933a3c-d9b2-423c-bd7b-58e169c61d7d",
+        "booking_date": "2023-09-02T07:15:15.970Z",
+        "expected_delivery_date": "2023-09-02T06:54:17.911Z",
+        "status": "On Hold",
+        "created_at": "2023-09-02T09:59:55.242Z",
+        "updated_at": "2023-09-02T06:00:56.241Z",
+        "cargo_id": "38417cb9-66a5-43a7-b9e7-5f4f34bbcd95",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7c887f8c-0130-449f-a1ff-9896cc8cd68f",
+        "email": "Dominique12@hotmail.com",
+        "firstName": "Fae",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/536.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25a0ff38-07d4-432c-80f2-0a3d1aa8a5a2",
+        "email": "Ezra.Corwin@hotmail.com",
+        "firstName": "Celestino",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84101431",
+        "tenantId": null
+      },
+      {
+        "reference": "f6e98dd5-b0b2-44c4-a959-139097709ee7",
+        "email": "Skye87@hotmail.com",
+        "firstName": "Christian",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10748800",
+        "tenantId": null
+      },
+      {
+        "reference": "f0d61ce7-c639-4e3a-8353-a5ca4d4f4999",
+        "email": "Kamille.Walker-Bruen@hotmail.com",
+        "firstName": "Brandi",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/814.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8bce1056-779e-40b7-9fce-8d730ff5553c",
+        "email": "Wyatt_Brekke@hotmail.com",
+        "firstName": "Domenic",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28119023",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "driver": [
+      {
+        "id": "89d2504c-799e-43a5-896b-4340bf3a82a5",
+        "license_number": "1234567890",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 284,
+        "created_at": "2023-09-02T03:24:43.839Z",
+        "updated_at": "2023-09-01T22:56:44.628Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1206bb3f-2437-4ceb-b58f-957aa88616b3",
+        "license_number": "0987654321",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 24914,
+        "created_at": "2023-09-02T09:21:53.126Z",
+        "updated_at": "2023-09-02T08:23:27.098Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1c197ba-1639-496d-a074-9645ca448cfe",
+        "license_number": "9876543210",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 50181,
+        "created_at": "2023-09-02T12:38:12.762Z",
+        "updated_at": "2023-09-01T13:08:50.475Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af09e840-aba5-46e3-b6f0-649077239931",
+        "license_number": "0123456789",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 60448,
+        "created_at": "2023-09-01T17:49:33.244Z",
+        "updated_at": "2023-09-02T01:42:20.374Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "896bb786-d254-4439-9f30-5171efaf48b9",
+        "license_number": "5432109876",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 86623,
+        "created_at": "2023-09-02T08:41:27.553Z",
+        "updated_at": "2023-09-02T05:31:46.002Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "68e0d1cb-d2bb-4e7b-bb63-86ee5e0bcd44",
+        "cargo_name": "Electronics",
+        "cargo_weight": 19832,
+        "cargo_volume": 77438,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-02T02:52:23.874Z",
+        "updated_at": "2023-09-01T21:55:21.618Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5e4c9109-be6c-4b3c-b790-6aa20f5f7315",
+        "cargo_name": "Clothing",
+        "cargo_weight": 75832,
+        "cargo_volume": 27687,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-01T15:48:22.826Z",
+        "updated_at": "2023-09-02T02:34:12.247Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "73c3e116-c87d-4895-82cc-ff8fdd202fed",
+        "cargo_name": "Food Products",
+        "cargo_weight": 55151,
+        "cargo_volume": 19748,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-02T03:32:31.238Z",
+        "updated_at": "2023-09-01T22:06:14.125Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e02397a9-c86d-4064-9764-34de8a2cfc49",
+        "cargo_name": "Automotive Parts",
+        "cargo_weight": 82195,
+        "cargo_volume": 61320,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-01T22:21:54.092Z",
+        "updated_at": "2023-09-01T15:40:35.203Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c5d6000d-161c-47dc-a4f7-ecd131fdb039",
+        "cargo_name": "Furniture",
+        "cargo_weight": 76206,
+        "cargo_volume": 81533,
+        "cargo_type": "Valuable",
+        "created_at": "2023-09-01T13:00:16.576Z",
+        "updated_at": "2023-09-01T20:44:08.881Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "114b0f7a-3a23-40da-b9ee-9f6cbc474917",
+        "admin_name": "Mark Johnson",
+        "admin_contact": "mark.johnson@example.com",
+        "created_at": "2023-09-02T02:59:14.187Z",
+        "updated_at": "2023-09-02T02:11:58.197Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0ff3797-8aef-44ac-9e8e-2b3494b50fe9",
+        "admin_name": "Emily Davis",
+        "admin_contact": "emily.davis@example.com",
+        "created_at": "2023-09-02T04:49:25.270Z",
+        "updated_at": "2023-09-01T20:40:50.036Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bc50206-1785-4864-966d-857b603c4085",
+        "admin_name": "Christopher Anderson",
+        "admin_contact": "christopher.anderson@example.com",
+        "created_at": "2023-09-02T06:21:48.679Z",
+        "updated_at": "2023-09-02T09:10:11.977Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2b9b48d-d741-4255-ae29-adea99e0a041",
+        "admin_name": "Olivia Martinez",
+        "admin_contact": "olivia.martinez@example.com",
+        "created_at": "2023-09-01T21:40:54.057Z",
+        "updated_at": "2023-09-02T08:31:38.042Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32711eb1-b80e-413b-aa0a-3784e88b1320",
+        "admin_name": "Daniel Clark",
+        "admin_contact": "daniel.clark@example.com",
+        "created_at": "2023-09-01T16:34:28.056Z",
+        "updated_at": "2023-09-02T03:12:09.865Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "bf2d8bf0-c237-4bd8-9b73-60619418ffd8",
+        "booking_date": "2023-09-01T18:50:19.193Z",
+        "expected_delivery_date": "2023-09-02T08:21:20.703Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T09:33:55.412Z",
+        "updated_at": "2023-09-02T11:50:04.731Z",
+        "cargo_id": "73c3e116-c87d-4895-82cc-ff8fdd202fed",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "5159bc61-906c-4be1-9ba4-44420b76d43c",
+        "booking_date": "2023-09-02T12:24:19.860Z",
+        "expected_delivery_date": "2023-09-02T06:54:48.905Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-01T17:41:12.124Z",
+        "updated_at": "2023-09-01T20:52:05.657Z",
+        "cargo_id": "c5d6000d-161c-47dc-a4f7-ecd131fdb039",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "5946b766-85b1-43fc-8597-92fe651968e4",
+        "booking_date": "2023-09-01T17:36:40.714Z",
+        "expected_delivery_date": "2023-09-02T04:59:13.345Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T06:45:30.449Z",
+        "updated_at": "2023-09-02T07:46:16.804Z",
+        "cargo_id": "e02397a9-c86d-4064-9764-34de8a2cfc49",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "4991331b-2d6a-4b39-82f4-c8f02674ed0a",
+        "booking_date": "2023-09-01T14:15:23.115Z",
+        "expected_delivery_date": "2023-09-02T02:00:47.166Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T05:03:10.022Z",
+        "updated_at": "2023-09-01T19:33:39.431Z",
+        "cargo_id": "5e4c9109-be6c-4b3c-b790-6aa20f5f7315",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "2fa1e38d-be57-4652-af34-8c64a874dc71",
+        "booking_date": "2023-09-01T20:06:29.524Z",
+        "expected_delivery_date": "2023-09-01T13:22:16.387Z",
+        "status": "On Hold",
+        "created_at": "2023-09-01T19:28:23.032Z",
+        "updated_at": "2023-09-01T14:05:31.524Z",
+        "cargo_id": "e02397a9-c86d-4064-9764-34de8a2cfc49",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8e90b6cf-3db9-4584-bc3e-19e5a57d4ed1",
+        "email": "Katheryn74@gmail.com",
+        "firstName": "Chelsey",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/942.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "691cecce-a4c9-4d2e-a68a-14f158901e5f",
+        "email": "Eula61@yahoo.com",
+        "firstName": "Felicity",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6413918",
+        "tenantId": null
+      },
+      {
+        "reference": "9a952b78-0ddb-4908-85cd-f3d7f58d271b",
+        "email": "Maddison.Trantow1@yahoo.com",
+        "firstName": "Ettie",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48649207",
+        "tenantId": null
+      },
+      {
+        "reference": "a5475db1-438b-45ba-8238-60f1075e6c3b",
+        "email": "Jerod20@yahoo.com",
+        "firstName": "Ambrose",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/314.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "146c0016-0335-4b3c-a073-9e7c23ffb072",
+        "email": "Deshawn40@gmail.com",
+        "firstName": "Kendrick",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17760684",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "driver": [
+      {
+        "id": "fb3c1b7f-1137-4d73-82e5-11c87dee74d3",
+        "license_number": "DL-123456",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 94656,
+        "created_at": "2023-09-02T04:32:15.285Z",
+        "updated_at": "2023-09-02T05:26:14.733Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df540ded-837f-45d2-9462-030a7604ceb7",
+        "license_number": "DL-654321",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 45508,
+        "created_at": "2023-09-02T00:06:38.517Z",
+        "updated_at": "2023-09-02T07:13:25.879Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1916f89-77ab-4a84-98fa-4914864d17ec",
+        "license_number": "DL-987654",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 51802,
+        "created_at": "2023-09-02T00:48:06.451Z",
+        "updated_at": "2023-09-01T21:37:42.468Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d5e448f-e08c-4508-a501-bfcc01953cf6",
+        "license_number": "DL-456789",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 60438,
+        "created_at": "2023-09-02T05:12:40.252Z",
+        "updated_at": "2023-09-01T21:28:48.890Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82c1625d-954a-40e0-abda-59942c261a96",
+        "license_number": "DL-321654",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 56869,
+        "created_at": "2023-09-02T01:18:20.928Z",
+        "updated_at": "2023-09-01T20:22:40.435Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "46aa523b-3728-40b0-b837-32f7a655c420",
+        "cargo_name": "Electronics",
+        "cargo_weight": 84377,
+        "cargo_volume": 49687,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-02T10:39:14.826Z",
+        "updated_at": "2023-09-02T07:39:49.358Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "73df70a5-772c-40b7-92f9-137a0d98b5d2",
+        "cargo_name": "Clothing",
+        "cargo_weight": 85585,
+        "cargo_volume": 64097,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-01T19:33:26.727Z",
+        "updated_at": "2023-09-02T11:46:05.762Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "33f4eac1-7bca-4c6b-87b1-d489b93c1024",
+        "cargo_name": "Food Products",
+        "cargo_weight": 16840,
+        "cargo_volume": 17976,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-02T00:52:26.239Z",
+        "updated_at": "2023-09-01T18:02:04.617Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1c03bcc9-57b6-406d-8e63-11eb762534e2",
+        "cargo_name": "Furniture",
+        "cargo_weight": 23456,
+        "cargo_volume": 66892,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-02T06:58:41.359Z",
+        "updated_at": "2023-09-01T19:44:18.987Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f4bf8f49-38d2-4254-ae93-0b3fa3152a1a",
+        "cargo_name": "Books",
+        "cargo_weight": 70571,
+        "cargo_volume": 21182,
+        "cargo_type": "Valuable",
+        "created_at": "2023-09-02T07:28:21.426Z",
+        "updated_at": "2023-09-02T03:52:01.428Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "513f06b0-58af-4491-aba8-bbe2693ffefa",
+        "admin_name": "Mark Johnson",
+        "admin_contact": "mark.johnson@example.com",
+        "created_at": "2023-09-02T03:02:28.502Z",
+        "updated_at": "2023-09-01T23:06:40.521Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ccb19a37-76a9-4bb0-8819-e321a0911985",
+        "admin_name": "Emily Davis",
+        "admin_contact": "emily.davis@example.com",
+        "created_at": "2023-09-01T23:33:10.026Z",
+        "updated_at": "2023-09-01T14:25:24.820Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1998c7e-96d0-4dfa-8a9e-1def7b5562b5",
+        "admin_name": "Christopher Wilson",
+        "admin_contact": "christopher.wilson@example.com",
+        "created_at": "2023-09-02T04:39:45.604Z",
+        "updated_at": "2023-09-01T15:03:44.468Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a7fe97a-b966-4d07-ba76-87a74910a480",
+        "admin_name": "Jessica Thompson",
+        "admin_contact": "jessica.thompson@example.com",
+        "created_at": "2023-09-02T07:48:21.981Z",
+        "updated_at": "2023-09-02T11:38:31.104Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb551564-edd3-498d-b5a5-7c785db44362",
+        "admin_name": "Daniel Martinez",
+        "admin_contact": "daniel.martinez@example.com",
+        "created_at": "2023-09-02T03:53:37.298Z",
+        "updated_at": "2023-09-01T13:17:37.697Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "966f246d-1787-4755-b157-3044f3ea468f",
+        "booking_date": "2023-09-02T00:44:42.973Z",
+        "expected_delivery_date": "2023-09-01T22:40:15.064Z",
+        "status": "Pending",
+        "created_at": "2023-09-02T09:43:40.924Z",
+        "updated_at": "2023-09-01T13:54:36.616Z",
+        "cargo_id": "73df70a5-772c-40b7-92f9-137a0d98b5d2",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "6b01f689-f795-4668-a28a-765585205b5d",
+        "booking_date": "2023-09-02T01:07:15.172Z",
+        "expected_delivery_date": "2023-09-01T14:32:09.072Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-01T17:32:36.098Z",
+        "updated_at": "2023-09-01T16:15:59.359Z",
+        "cargo_id": "46aa523b-3728-40b0-b837-32f7a655c420",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "320fade5-4189-417b-9f87-865edd9ce8e3",
+        "booking_date": "2023-09-02T02:32:37.915Z",
+        "expected_delivery_date": "2023-09-01T13:51:42.833Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-01T14:36:51.183Z",
+        "updated_at": "2023-09-02T01:10:53.046Z",
+        "cargo_id": "f4bf8f49-38d2-4254-ae93-0b3fa3152a1a",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "f6e53e26-8dbc-4369-8b38-8d2f81c782ea",
+        "booking_date": "2023-09-01T15:22:49.172Z",
+        "expected_delivery_date": "2023-09-01T15:54:14.556Z",
+        "status": "Completed",
+        "created_at": "2023-09-02T03:29:23.954Z",
+        "updated_at": "2023-09-01T18:18:35.688Z",
+        "cargo_id": "46aa523b-3728-40b0-b837-32f7a655c420",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "6d8eb62b-d3e1-469c-8228-b5350e3b7857",
+        "booking_date": "2023-09-01T13:16:03.931Z",
+        "expected_delivery_date": "2023-09-01T18:18:36.854Z",
+        "status": "On Hold",
+        "created_at": "2023-09-01T20:01:14.967Z",
+        "updated_at": "2023-09-01T20:02:23.876Z",
+        "cargo_id": "1c03bcc9-57b6-406d-8e63-11eb762534e2",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0514ceaf-bb5e-4a9b-abb1-23e3b501d7b7",
+        "email": "Christophe_Will57@yahoo.com",
+        "firstName": "Josiane",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/727.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "400531eb-2411-4b29-8281-434d9bd90be5",
+        "email": "Jerrold_Quitzon@hotmail.com",
+        "firstName": "Lurline",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3530213",
+        "tenantId": null
+      },
+      {
+        "reference": "7ea3a889-7e94-40d7-b3b1-6f45f8789ebf",
+        "email": "Cale.Gottlieb@hotmail.com",
+        "firstName": "Darrion",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/105.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9fcbec48-5e1a-4ea4-8b8f-88e19a39557b",
+        "email": "Alberta92@gmail.com",
+        "firstName": "Kiera",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74173011",
+        "tenantId": null
+      },
+      {
+        "reference": "6199799f-4619-4acb-a412-46f7a8861723",
+        "email": "Theodora_Considine@hotmail.com",
+        "firstName": "Margaret",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68373769",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "driver": [
+      {
+        "id": "71e03625-dc34-46bf-aa5a-abb5a66949fb",
+        "license_number": "DL123456",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 15019,
+        "created_at": "2023-09-01T15:13:29.487Z",
+        "updated_at": "2023-09-01T22:31:11.592Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70615ed7-9952-4049-9bfa-fb12dc2fa574",
+        "license_number": "DL654321",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 30809,
+        "created_at": "2023-09-02T05:40:11.128Z",
+        "updated_at": "2023-09-01T13:36:52.223Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "202afed6-fbec-412c-8e93-e2e7e9ede663",
+        "license_number": "DL987654",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 11185,
+        "created_at": "2023-09-02T02:31:08.293Z",
+        "updated_at": "2023-09-02T01:42:35.317Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ff9ba23-56c7-4d3b-a598-fecedeaf026e",
+        "license_number": "DL246813",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 91117,
+        "created_at": "2023-09-02T09:02:51.698Z",
+        "updated_at": "2023-09-02T10:28:56.778Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0aae852e-08bf-4ecb-aaf9-7ebe3784c71e",
+        "license_number": "DL135792",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 20577,
+        "created_at": "2023-09-02T10:13:17.871Z",
+        "updated_at": "2023-09-01T19:57:04.211Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "dfbf362b-f7a7-4cef-ac78-aa839b7bf6c8",
+        "cargo_name": "Electronics",
+        "cargo_weight": 20396,
+        "cargo_volume": 4198,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-01T22:34:15.141Z",
+        "updated_at": "2023-09-01T21:01:12.912Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6411341a-c0b3-4569-be14-eb920bc92375",
+        "cargo_name": "Clothing",
+        "cargo_weight": 74187,
+        "cargo_volume": 68821,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-02T00:57:28.213Z",
+        "updated_at": "2023-09-01T14:16:13.109Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b09064ff-7d9d-44d8-a8cf-41b2844a7830",
+        "cargo_name": "Furniture",
+        "cargo_weight": 10140,
+        "cargo_volume": 82268,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-01T20:43:53.111Z",
+        "updated_at": "2023-09-02T06:16:45.881Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "33d8a670-88d4-44f5-a4d5-4128798ae607",
+        "cargo_name": "Food",
+        "cargo_weight": 40431,
+        "cargo_volume": 49659,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-01T18:23:38.926Z",
+        "updated_at": "2023-09-01T21:19:29.632Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4f0994ac-b5b3-4ed7-9629-20d32b2d4579",
+        "cargo_name": "Books",
+        "cargo_weight": 99047,
+        "cargo_volume": 5833,
+        "cargo_type": "Valuable",
+        "created_at": "2023-09-01T23:53:14.395Z",
+        "updated_at": "2023-09-01T17:30:01.827Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "52493a85-21a2-440e-a636-983572a615c6",
+        "admin_name": "John Doe",
+        "admin_contact": "+1 123-456-7890",
+        "created_at": "2023-09-02T10:26:24.536Z",
+        "updated_at": "2023-09-02T02:54:38.380Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e3ae0c9-d913-4874-b718-13ead1668252",
+        "admin_name": "Jane Smith",
+        "admin_contact": "+1 987-654-3210",
+        "created_at": "2023-09-01T19:11:54.512Z",
+        "updated_at": "2023-09-01T19:44:14.713Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd3e90a3-2b5d-47c0-bd24-428cd66edff0",
+        "admin_name": "Michael Brown",
+        "admin_contact": "+1 555-123-4567",
+        "created_at": "2023-09-02T12:06:31.058Z",
+        "updated_at": "2023-09-02T01:11:25.508Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52080b6c-f20b-4dcd-a0b2-c9024dfd8fba",
+        "admin_name": "Sarah Jones",
+        "admin_contact": "+1 888-999-0000",
+        "created_at": "2023-09-02T05:24:33.872Z",
+        "updated_at": "2023-09-01T22:43:51.946Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "624663ee-3053-4f04-86ac-27d823276d86",
+        "admin_name": "Robert Wilson",
+        "admin_contact": "+1 777-555-1234",
+        "created_at": "2023-09-02T09:35:07.529Z",
+        "updated_at": "2023-09-02T03:05:57.292Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "78ea204c-8d99-4918-b5ea-eab0512e5973",
+        "booking_date": "2023-09-01T17:40:59.757Z",
+        "expected_delivery_date": "2023-09-01T17:50:51.889Z",
+        "status": "Pending",
+        "created_at": "2023-09-01T20:47:52.008Z",
+        "updated_at": "2023-09-01T16:04:01.444Z",
+        "cargo_id": "33d8a670-88d4-44f5-a4d5-4128798ae607",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "3adab2d9-a3e8-4483-8d5b-bb83621ffeb2",
+        "booking_date": "2023-09-02T00:33:18.432Z",
+        "expected_delivery_date": "2023-09-01T20:18:46.496Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-01T23:00:54.942Z",
+        "updated_at": "2023-09-01T17:56:16.917Z",
+        "cargo_id": "33d8a670-88d4-44f5-a4d5-4128798ae607",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "37dfcb20-0a7a-48f5-938d-5fbcf2760368",
+        "booking_date": "2023-09-01T18:46:14.321Z",
+        "expected_delivery_date": "2023-09-02T09:07:07.666Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T04:36:32.356Z",
+        "updated_at": "2023-09-01T12:57:46.039Z",
+        "cargo_id": "33d8a670-88d4-44f5-a4d5-4128798ae607",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "2c20a267-8ae1-45b8-8524-891ef97e4422",
+        "booking_date": "2023-09-02T07:30:50.011Z",
+        "expected_delivery_date": "2023-09-02T06:04:17.175Z",
+        "status": "Completed",
+        "created_at": "2023-09-01T14:50:56.525Z",
+        "updated_at": "2023-09-02T05:55:48.959Z",
+        "cargo_id": "b09064ff-7d9d-44d8-a8cf-41b2844a7830",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "264710a8-8a56-4126-b445-e5086241e6f8",
+        "booking_date": "2023-09-01T21:26:34.672Z",
+        "expected_delivery_date": "2023-09-02T09:29:24.636Z",
+        "status": "On Hold",
+        "created_at": "2023-09-01T17:20:02.664Z",
+        "updated_at": "2023-09-02T07:24:32.941Z",
+        "cargo_id": "4f0994ac-b5b3-4ed7-9629-20d32b2d4579",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5e749e86-4fb8-4519-be26-fc8788364a1c",
+        "email": "Korey_Quitzon@gmail.com",
+        "firstName": "Beverly",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/412.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "09955ba8-7b18-4753-ab74-246d30cf50c7",
+        "email": "King_Erdman26@hotmail.com",
+        "firstName": "Lavonne",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1183.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d12aa54-4072-4d7d-80ce-1f140a29214c",
+        "email": "Raymond19@yahoo.com",
+        "firstName": "Sasha",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56301851",
+        "tenantId": null
+      },
+      {
+        "reference": "6befffbe-2831-4bca-b6c1-76d277bf8b77",
+        "email": "Darius_Pagac@gmail.com",
+        "firstName": "Hugh",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75200832",
+        "tenantId": null
+      },
+      {
+        "reference": "4500b505-c1e0-49a0-ad8c-8231f783d158",
+        "email": "Heloise23@yahoo.com",
+        "firstName": "Madisen",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/122.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "driver": [
+      {
+        "id": "f0051694-cae3-444a-ae7d-2b44ff36c143",
+        "license_number": "1234567890",
+        "vehicle_type": "Sedan",
+        "vehicle_capacity": 93815,
+        "created_at": "2023-09-01T16:05:56.897Z",
+        "updated_at": "2023-09-01T17:39:51.939Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d5fbe8b-9cf0-45e7-96de-6cc796cdf8ea",
+        "license_number": "0987654321",
+        "vehicle_type": "SUV",
+        "vehicle_capacity": 9014,
+        "created_at": "2023-09-01T13:53:36.157Z",
+        "updated_at": "2023-09-02T00:51:30.635Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da7e71a5-b087-4fd2-b0e4-2ecd125cd8b7",
+        "license_number": "2468135790",
+        "vehicle_type": "Truck",
+        "vehicle_capacity": 13772,
+        "created_at": "2023-09-02T06:01:58.411Z",
+        "updated_at": "2023-09-02T02:16:07.428Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd25ed69-11b6-4688-8086-2ec9768aeeba",
+        "license_number": "1357924680",
+        "vehicle_type": "Motorcycle",
+        "vehicle_capacity": 31049,
+        "created_at": "2023-09-01T18:36:44.485Z",
+        "updated_at": "2023-09-01T21:30:52.834Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67ab5a61-4cd8-4a62-9563-f6cf529248b8",
+        "license_number": "9876543210",
+        "vehicle_type": "Van",
+        "vehicle_capacity": 56875,
+        "created_at": "2023-09-02T03:29:41.052Z",
+        "updated_at": "2023-09-01T18:12:51.041Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cargo": [
+      {
+        "id": "823e04e0-dd93-4171-bc4a-effc713e9b7a",
+        "cargo_name": "Electronics",
+        "cargo_weight": 51584,
+        "cargo_volume": 23718,
+        "cargo_type": "Fragile",
+        "created_at": "2023-09-02T11:02:55.016Z",
+        "updated_at": "2023-09-02T03:25:26.383Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "23813c29-bcf7-4195-81c4-0af44c526324",
+        "cargo_name": "Clothing",
+        "cargo_weight": 61075,
+        "cargo_volume": 77061,
+        "cargo_type": "Perishable",
+        "created_at": "2023-09-02T06:14:48.396Z",
+        "updated_at": "2023-09-01T23:20:45.956Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "08c9a15a-e89c-43f2-9cba-420b40b8843e",
+        "cargo_name": "Furniture",
+        "cargo_weight": 53458,
+        "cargo_volume": 79813,
+        "cargo_type": "Hazardous",
+        "created_at": "2023-09-01T19:43:00.072Z",
+        "updated_at": "2023-09-02T11:00:06.991Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a59c515f-4386-482b-8272-d340a0828522",
+        "cargo_name": "Food",
+        "cargo_weight": 53513,
+        "cargo_volume": 22199,
+        "cargo_type": "Bulk",
+        "created_at": "2023-09-02T07:45:58.212Z",
+        "updated_at": "2023-09-02T03:38:48.909Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "827262eb-3863-4914-8c05-cae9231dc940",
+        "cargo_name": "Books",
+        "cargo_weight": 1559,
+        "cargo_volume": 38614,
+        "cargo_type": "Valuable",
+        "created_at": "2023-09-01T21:48:35.064Z",
+        "updated_at": "2023-09-02T10:16:49.337Z",
+        "driver_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "business_administrator": [
+      {
+        "id": "47beeb01-c4ff-4fb1-b46f-737d31396cc7",
+        "admin_name": "Mark Johnson",
+        "admin_contact": "mark.johnson@example.com",
+        "created_at": "2023-09-01T14:45:10.473Z",
+        "updated_at": "2023-09-01T22:40:41.112Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4f7907c-ab8e-496a-a7e2-ce2cfdf441b8",
+        "admin_name": "Emily Davis",
+        "admin_contact": "emily.davis@example.com",
+        "created_at": "2023-09-01T20:57:35.062Z",
+        "updated_at": "2023-09-02T06:32:37.797Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c12462ed-f332-4b50-8bfa-db0de04ac494",
+        "admin_name": "Robert Wilson",
+        "admin_contact": "robert.wilson@example.com",
+        "created_at": "2023-09-01T16:40:29.624Z",
+        "updated_at": "2023-09-02T05:23:04.371Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf1f855e-3b92-4558-8530-0d9f26f2e9ac",
+        "admin_name": "Sophia Anderson",
+        "admin_contact": "sophia.anderson@example.com",
+        "created_at": "2023-09-02T10:02:33.721Z",
+        "updated_at": "2023-09-02T01:02:30.566Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "934f90a6-40dc-4607-a431-abb7cac53abe",
+        "admin_name": "Daniel Martinez",
+        "admin_contact": "daniel.martinez@example.com",
+        "created_at": "2023-09-02T10:06:42.850Z",
+        "updated_at": "2023-09-02T02:52:47.847Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "3e9d1e61-f882-43c7-8ac7-63d12c4ff6d1",
+        "booking_date": "2023-09-02T01:43:45.029Z",
+        "expected_delivery_date": "2023-09-01T23:16:52.864Z",
+        "status": "Pending",
+        "created_at": "2023-09-01T20:26:06.523Z",
+        "updated_at": "2023-09-02T00:03:20.650Z",
+        "cargo_id": "08c9a15a-e89c-43f2-9cba-420b40b8843e",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "218bd30f-713f-4345-aa55-4ff8d1392fce",
+        "booking_date": "2023-09-01T13:00:38.371Z",
+        "expected_delivery_date": "2023-09-01T17:14:46.206Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-02T00:44:44.775Z",
+        "updated_at": "2023-09-02T09:12:36.157Z",
+        "cargo_id": "823e04e0-dd93-4171-bc4a-effc713e9b7a",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "74ae462a-6996-47ee-8869-03b6f5933f8a",
+        "booking_date": "2023-09-01T23:43:22.572Z",
+        "expected_delivery_date": "2023-09-02T00:28:50.357Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T00:52:08.804Z",
+        "updated_at": "2023-09-01T14:15:27.189Z",
+        "cargo_id": "23813c29-bcf7-4195-81c4-0af44c526324",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "3aa5e4a0-1d2d-4c92-8640-9a82530fdba8",
+        "booking_date": "2023-09-01T22:30:34.660Z",
+        "expected_delivery_date": "2023-09-01T22:32:44.635Z",
+        "status": "Completed",
+        "created_at": "2023-09-01T13:53:13.407Z",
+        "updated_at": "2023-09-01T15:40:49.143Z",
+        "cargo_id": "a59c515f-4386-482b-8272-d340a0828522",
+        "shipping_agent_id": "user_entity_pk"
+      },
+      {
+        "id": "0215f0e5-09f8-43ba-80b9-33b05684e3b2",
+        "booking_date": "2023-09-01T22:07:51.005Z",
+        "expected_delivery_date": "2023-09-01T14:45:42.902Z",
+        "status": "In Progress",
+        "created_at": "2023-09-02T07:24:20.838Z",
+        "updated_at": "2023-09-02T06:29:28.801Z",
+        "cargo_id": "823e04e0-dd93-4171-bc4a-effc713e9b7a",
+        "shipping_agent_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4956bea3-08da-453d-9d90-e81bdd61f5d8",
+        "email": "Betty86@yahoo.com",
+        "firstName": "Sallie",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/981.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2b4abd4d-a741-439d-a983-0004158bb38d",
+        "email": "Abel62@yahoo.com",
+        "firstName": "Elisha",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43453648",
+        "tenantId": null
+      },
+      {
+        "reference": "c27ff218-96a8-4978-8933-df36de8de16a",
+        "email": "Tatum_Terry@gmail.com",
+        "firstName": "Eino",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce9f934c-870b-4951-b59e-194dff06e83a",
+        "email": "Felton84@yahoo.com",
+        "firstName": "Retta",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46091718",
+        "tenantId": null
+      },
+      {
+        "reference": "bb35b2a7-527a-45e4-9e80-7d5ca9abfea7",
+        "email": "Melba86@hotmail.com",
+        "firstName": "Gabriel",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42459571",
+        "tenantId": null
+      }
+    ]
+  }
+]
